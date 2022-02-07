@@ -1,5 +1,5 @@
-import React from "react";
 import { Button, Col, Form, FormControl, ListGroup } from "react-bootstrap";
+
 
 const FilterSection = () => {
   return (
@@ -13,7 +13,7 @@ const FilterSection = () => {
             className="me-2"
             aria-label="Search"
           />
-          <Button variant="outline-success">Search</Button>
+          <Button type="submit" variant="outline-success">Search</Button>
         </Form>
       </Col>
 

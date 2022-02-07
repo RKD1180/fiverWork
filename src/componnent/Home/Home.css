@@ -1,7 +1,22 @@
-.header{
-    height: 100px;
-    background-color: #cfd4d7;
+.header {
+  height: 100px;
+  background-color: #cfd4d7;
 }
-.filterSection{
-    background-color: #dce5e5;
+.filterSection {
+  background-color: #dce5e5;
+}
+@media (min-width: 768px) {
+  .pagination {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+.pagination button {
+  border: 1px solid rgb(146, 144, 144);
+}
+@media (max-width: 768) {
+  .pagination {
+    width: 98%;
+    margin: 20px auto;
+  }
 }
